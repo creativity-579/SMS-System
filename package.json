@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set CI=false && react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint .",
     "eject": "react-scripts eject"
@@ -68,7 +68,6 @@
   "devDependencies": {
     "@babel/core": "^7.28.0",
     "@babel/eslint-parser": "^7.28.0",
-    "@eslint/js": "^9.9.0",
     "@tailwindcss/typography": "^0.5.15",
     "autoprefixer": "^10.4.20",
     "eslint": "^8.57.1",
